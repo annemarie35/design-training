@@ -43,7 +43,7 @@ export const ROOMSLIST = [
 
 const roomsRepository = () => ROOMSLIST;
 
-export const getAllRooms = (role) => {
+export const getAllRoomsService = (role) => {
     if (role !== "admin") {
         return [];
     }
