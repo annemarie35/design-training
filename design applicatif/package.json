@@ -7,8 +7,8 @@
     "test": "vitest",
     "type-check": "npx tsc --build ",
     "format": "prettier --write .",
-    "lint": "eslint . ",
-    "lint:fix": "eslint . --fix "
+    "lint": "eslint . --ignore-pattern 'dist'",
+    "lint:fix": "eslint . --ignore-pattern 'dist' --fix "
   },
   "keywords": [
     "javascript",
