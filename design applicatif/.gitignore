@@ -1,4 +1,17 @@
-.DS_Store
+# NodeJs
 /node_modules
+
+# IDE
 .idea/
+
+# OS
+.DS_Store
+
+# Typescript
+*dist
+
+# TypeScript cache
+*tsconfig.tsbuildinfo
+
+
 
