@@ -1,0 +1,15 @@
+# JetBrains
+.idea/
+
+# Mac Os
+.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+
+
+# Dependency directories
+node_modules/
+
+# Ts build
+dist
