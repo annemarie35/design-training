@@ -12,4 +12,7 @@
 node_modules/
 
 # Ts build
-dist
+dist/
+
+# Test coverage
+coverage/

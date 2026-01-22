@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "vitest",
+    "test:coverage": "vitest run --coverage",
     "lint": "eslint . --ext .ts",
     "format": "prettier --write .",
     "type-check": "npx tsc --build "
@@ -15,6 +16,7 @@
     "@types/node": "^25.0.10",
     "@typescript-eslint/eslint-plugin": "^8.53.1",
     "@typescript-eslint/parser": "^8.53.1",
+    "@vitest/coverage-v8": "^4.0.17",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "jiti": "^2.6.1",

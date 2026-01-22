@@ -5,5 +5,9 @@ export default defineConfig({
     globals: true,
     environment: 'node',
     include: ['**/*.test.ts', '**/*.spec.ts'],
+    coverage: {
+      provider: 'v8', // or 'istanbul',
+      include: ['src/**/*.{ts,tsx}'],
+    },
   },
 })
