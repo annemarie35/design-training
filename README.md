@@ -1,3 +1,3 @@
 # Design training
 
-A repo to train on design an architecture
+A repo to train on design and architecture
